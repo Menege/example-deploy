@@ -4,7 +4,7 @@ import CocktailPage from '../pages/CocktailPage.vue'
 import NotFound from '../pages/NotFound.vue'
 
 const router = createRouter({
-  history: createWebHistory('/example-deploy/'),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
